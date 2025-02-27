@@ -1,5 +1,5 @@
 import React from 'react';
-import FreedomOfSpeechTierList from './FreedomOfSpeechTierList';
+import FreedomOfSpeechTierList from './components/FreedomOfSpeechTierList';
 
 function App() {
     return (
@@ -10,3 +10,4 @@ function App() {
 }
 
 export default App;
+
