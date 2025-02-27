@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/freedom-speech-tierlist/static/css/main.332a40b2.css",
-    "main.js": "/freedom-speech-tierlist/static/js/main.ed27c224.js",
+    "main.js": "/freedom-speech-tierlist/static/js/main.363c154a.js",
     "static/js/453.da9b9723.chunk.js": "/freedom-speech-tierlist/static/js/453.da9b9723.chunk.js",
     "index.html": "/freedom-speech-tierlist/index.html",
     "main.332a40b2.css.map": "/freedom-speech-tierlist/static/css/main.332a40b2.css.map",
-    "main.ed27c224.js.map": "/freedom-speech-tierlist/static/js/main.ed27c224.js.map",
+    "main.363c154a.js.map": "/freedom-speech-tierlist/static/js/main.363c154a.js.map",
     "453.da9b9723.chunk.js.map": "/freedom-speech-tierlist/static/js/453.da9b9723.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.332a40b2.css",
-    "static/js/main.ed27c224.js"
+    "static/js/main.363c154a.js"
   ]
 }
