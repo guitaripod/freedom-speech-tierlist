@@ -157,7 +157,6 @@ export const initialCountries = [
     { id: 'monaco', name: 'Monaco', tier: null, flag: '🇲🇨', region: 'Europe' },
     { id: 'montenegro', name: 'Montenegro', tier: null, flag: '🇲🇪', region: 'Europe' },
     { id: 'north-macedonia', name: 'North Macedonia', tier: null, flag: '🇲🇰', region: 'Europe' },
-    { id: 'norway', name: 'Norway', tier: null, flag: '🇳🇴', region: 'Europe' },
     { id: 'romania', name: 'Romania', tier: null, flag: '🇷🇴', region: 'Europe' },
     { id: 'san-marino', name: 'San Marino', tier: null, flag: '🇸🇲', region: 'Europe' },
     { id: 'serbia', name: 'Serbia', tier: null, flag: '🇷🇸', region: 'Europe' },
