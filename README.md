@@ -2,7 +2,8 @@
 
 A drag-and-drop interactive tool for creating, sharing and discussing freedom of speech rankings across countries worldwide.
 
-![Freedom of Speech Tier List Screenshot](https://via.placeholder.com/800x450?text=Freedom+of+Speech+Tier+List)
+![Screenshot_20250227_153812](https://github.com/user-attachments/assets/176d95ae-ba32-4eb4-a36d-833eb4fab89d)
+
 
 ## Overview
 
