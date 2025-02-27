@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Freedom of Speech Tier List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A drag-and-drop interactive tool for creating, sharing and discussing freedom of speech rankings across countries worldwide.
 
-## Available Scripts
+![Freedom of Speech Tier List Screenshot](https://via.placeholder.com/800x450?text=Freedom+of+Speech+Tier+List)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This application allows users to create customized tier lists ranking countries based on their freedom of speech status. Using a simple drag-and-drop interface, users can categorize countries from S-tier (Exceptional) to F-tier (Poor) based on their own assessment or available data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive Drag-and-Drop Interface**: Easily move countries between tiers with intuitive controls
+- **200+ Countries**: Comprehensive list of countries from all regions of the world
+- **Regional Filtering**: Filter unranked countries by continent (Europe, Americas, Asia, Africa, Oceania)
+- **Progress Tracking**: See how many countries you've ranked and how many remain
+- **Data Export**: Save your tier list as a JSON file for sharing or future reference
+- **Reset Functionality**: Clear your rankings and start fresh with a single click
+- **Responsive Design**: Works on desktop and mobile devices
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Browse the list of countries in the bottom section
+2. Drag countries to the appropriate tier rankings (S-F)
+3. Click any ranked country to remove it from a tier
+4. Use the regional filters to find specific countries more easily
+5. Export your completed tier list when finished
+6. Share your rankings and discuss with others
 
-### `npm run build`
+## Tier Definitions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **S Tier** (Exceptional): Countries with outstanding freedom of speech protections
+- **A Tier** (Excellent): Strong legal and cultural support for free expression
+- **B Tier** (Good): Generally positive environment for free speech with some limitations
+- **C Tier** (Average): Mixed record with both protections and restrictions
+- **D Tier** (Below Average): Significant restrictions on free expression
+- **F Tier** (Poor): Severe limitations on freedom of speech
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Educational Purpose
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This tool is designed for educational discussions about freedom of speech around the world. Users are encouraged to:
 
-### `npm run eject`
+- Research country-specific laws and practices
+- Compare different freedom indexes and methodologies
+- Discuss the various factors that influence free expression
+- Consider both legal protections and practical realities
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation and Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js (v14 or later)
+- npm or yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Getting Started
 
-## Learn More
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/freedom-speech-tierlist.git
+   cd freedom-speech-tierlist
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Start the development server:
+   ```
+   npm start
+   # or
+   yarn start
+   ```
 
-### Code Splitting
+4. Open http://localhost:3000 in your browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Building for Production
 
-### Analyzing the Bundle Size
+```
+npm run build
+# or
+yarn build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+```
+src/
+├── App.js                        # Main app component
+├── components/                   # Component directory
+│   ├── CountryCard.jsx           # Individual country component
+│   ├── CountriesSection.jsx      # Countries selection area
+│   ├── Footer.jsx                # App footer with actions
+│   ├── FreedomOfSpeechTierList.jsx # Main component
+│   ├── Header.jsx                # App header
+│   ├── RegionFilter.jsx          # Region filtering component
+│   ├── StatsDisplay.jsx          # Statistics display
+│   ├── TierRow.jsx               # Tier row component
+│   ├── countriesData.js          # Countries database
+│   ├── tiersData.js              # Tier definitions
+│   └── tierlist-styles.css       # Component styles
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! If you'd like to improve the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### Deployment
+### Development Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Add data import functionality
+- [ ] Implement image export of completed tier lists
+- [ ] Add customizable tier colors and labels
+- [ ] Include freedom indices from various organizations
+- [ ] Create sharing functionality directly to social media
